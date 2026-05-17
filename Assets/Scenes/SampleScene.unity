@@ -1579,7 +1579,6 @@ GameObject:
   - component: {fileID: 5744878005271506359}
   - component: {fileID: 5744878005271506358}
   - component: {fileID: 5744878005271506357}
-  - component: {fileID: 5744878005271506356}
   - component: {fileID: 5744878005271506360}
   m_Layer: 0
   m_Name: domixifix
@@ -1815,8 +1814,8 @@ Transform:
   m_GameObject: {fileID: 4968095698455754504}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -94.54628, y: 2.988, z: 24.424639}
-  m_LocalScale: {x: 0.63503, y: 0.53652, z: 0.78417}
+  m_LocalPosition: {x: -93.283, y: 1.18, z: 24.424639}
+  m_LocalScale: {x: 0.4153223, y: 0.41209918, z: 0.78417}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3677537955951574316}
@@ -1852,23 +1851,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &5744878005271506356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4968095698455754504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 365811b7c8288e142a4f56b291489dcf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 200
-  playerTransform: {fileID: 5744878005271506354}
-  playerInput: {fileID: 0}
-  xRotation: 0
-  yRotation: 0
 --- !u!114 &5744878005271506357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1886,7 +1868,7 @@ MonoBehaviour:
   mouseSensitivity: 200
   cameraPivot: {fileID: 694519975}
   cameraTransform: {fileID: 694519975}
-  anim: {fileID: 0}
+  anim: {fileID: 5744878005271506360}
   idleAnim: Idle
   walkAnim: Walk
 --- !u!143 &5744878005271506358
@@ -2325,8 +2307,8 @@ Transform:
   m_GameObject: {fileID: 3523260629609843273}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071069, y: -5.418371e-11, z: -1.6998175e-10, w: 0.7071067}
-  m_LocalPosition: {x: 2.0148, y: -2.3594, z: -0.48469}
-  m_LocalScale: {x: 107.85997, y: 173.74995, z: 379.20923}
+  m_LocalPosition: {x: 9.12, y: -34.36, z: -47.55}
+  m_LocalScale: {x: 107.85997, y: 90.59371, z: 379.20923}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5744878005271506354}
